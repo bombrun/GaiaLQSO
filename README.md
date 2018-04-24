@@ -7,7 +7,7 @@ The folder gaiapix contains python code to make healpix map easier.
 The folder data contains some data.
 
 
-The folder notebooks contains a list of notebooks. 
+The folder [notebooks](notebooks) contains a list of notebooks. 
 
 The SIS and SIE series shows how to simulate Gaia like lensed QSO including proper motion based on SIE lens model and the inference ones explore some inference Bayesian models trying to quantify the significance of the relative lens-source proper motion for some simulated LQSO.
 
