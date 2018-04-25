@@ -11,6 +11,9 @@ The folder [notebooks](notebooks) contains a list of notebooks.
 
 ### SIE lens model
 The SIS and SIE series shows how to simulate Gaia like lensed QSO including proper motion based on SIE lens model and the inference ones explore some inference Bayesian models trying to quantify the significance of the relative lens-source proper motion for some simulated LQSO.
+* [SIE model](notebooks/SIE%20lens%20model.ipynb)
+* [SIE inference](notebooks/SIE%20inference.ipynb)
+* [SIE inference PM](notebooks/SIE%20inference%20with%20PM.ipynb)
 
 ### Simulate LQSO Gaia query
 The simulation series expose the strategy used to simulate data/simDataSet1.csv.gzip, a Gaia DR2 like query search around some known QSOs.
