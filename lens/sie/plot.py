@@ -43,9 +43,11 @@ def plotSourceImage(y1,y2,f,ax = plt.subplot(111,aspect='equal')):
         ax.scatter(x1,x2,color='C0')#s = np.exp(np.abs(mag(x,phi,f)))
         ax.scatter(x1+dx[0],x2+dx[1],s=1,color='C0')
         ax.plot([x1,x1+dx[0][0]],[x2,x2+dx[1][0]],color='C0')
+        ax.plot([x1,x1+dx[0][5]],[x2,x2+dx[1][5]],'--',color='C0')
     ax.scatter(y1,y2,s=np.exp(1),label="source",color='C1')
     ax.scatter(y1+dy[0],y2+dy[1],color='C1',s=1)
     ax.plot([y1,y1+dy[0][0]],[y2,y2+dy[1][0]],color='C1')
+    ax.plot([y1,y1+dy[0][5]],[y2,y2+dy[1][5]],'--',color='C1')
     ax.grid()   
     
 def plotLensSourceImage(f,y1,y2):
