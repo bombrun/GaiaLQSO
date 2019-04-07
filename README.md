@@ -1,5 +1,3 @@
-# StatClubProject
-
 Some ideas for modelling and analysing strong lensed QSO in GAIA DR2 data set.
 
 ## Code
