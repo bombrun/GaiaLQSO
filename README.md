@@ -1,5 +1,3 @@
-# StatClubProject
-
 Some ideas for modelling and analysing strong lensed QSO in GAIA DR2 data set.
 
 ## Code
@@ -20,6 +18,11 @@ The simulation series expose the strategy used to simulate data/simDataSet1.csv.
 * [Simulate LQSO Gaia query Part 1](notebooks/Simulation%20of%20DR2%20query%20part%201.ipynb)
 * [Simulate LQSO Gaia query Part 2](notebooks/Simulation%20of%20DR2%20query%20part%202.ipynb)
 * [Simulate LQSO Gaia query Part 3](notebooks/Simulation%20of%20DR2%20query%20part%203.ipynb)
+
+### Explore Gaia DR2
+The exploration series analyse the proper motions of the known lensed QSOs and compare their distribution with the one of QSOs proper motion. Material presented at ESLAB#53.
+* [Gravitational Lensed Quasar database](notebooks/GQLdatabase/1-xmtach-DR2.ipynb)
+* [Distributions comparison](notebooks/Compare_distributions.ipynb)
 
 ## Data
 The folder data contains some data.
